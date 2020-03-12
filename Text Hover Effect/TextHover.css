@@ -1,0 +1,36 @@
+/* Text Effect on Hover using HTML and CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(Dark\ Ocean.jpg);
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: #fff;
+    font-size: 70px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.hidden {
+    transition: 0.5s ease-in;
+    max-width: 0;
+    opacity: 0;
+}
+
+.text:hover .hidden {
+    opacity: 1;
+    max-width: 1em;
+    margin-right: 5px;
+}

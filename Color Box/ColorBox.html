@@ -1,0 +1,37 @@
+<!-- Color Box -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Box</title>
+    <link type="text/css" rel="stylesheet" href="ColorBox.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="color" onclick="changeColor('red')" id="red">#e74c3c
+        </div>
+        <div class="color" onclick="changeColor('blue')" id="blue">#3498db
+        </div>
+        <div class="color" onclick="changeColor('green')" id="green">#2ecc71
+        </div>
+        <div class="color" onclick="changeColor('gray')" id="gray">#34495e
+        </div>
+        <div class="color" onclick="changeColor('yellow')" id="yellow">#f1cf04
+        </div>
+        <div class="color" onclick="changeColor('orange')" id="orange">#ffa500
+        </div>
+        <div class="color" onclick="changeColor('purple')" id="purple">#800080
+        </div>
+    </div>
+    <script type="text/javascript">
+        function changeColor(id) {
+            document.body.style.backgroundColor = document.getElementById(id).innerHTML;
+        }
+    </script>
+</body>
+
+</html>

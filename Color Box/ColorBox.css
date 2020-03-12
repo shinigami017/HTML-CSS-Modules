@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: cyan;
+}
+
+.color {
+    height: 100px;
+    width: 100px;
+    border: 5px solid antiquewhite;
+    border-radius: 50%;
+    margin: 50px;
+    cursor: pointer;
+    text-indent: -9999px;
+    float: left;
+}
+
+#red {
+    background-color: #e74c3c;
+}
+
+#blue {
+    background-color: #3498db;
+}
+
+#green {
+    background-color: #2ecc71;
+}
+
+#gray {
+    background-color: #34495e;
+}
+
+#yellow {
+    background-color: #f1cf04;
+}
+
+#orange {
+    background-color: #ffa500;
+}
+
+#purple {
+    background-color: #800080;
+}
